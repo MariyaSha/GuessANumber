@@ -1,6 +1,8 @@
+//script that was written after watching the teachers' explanation, please see myscript.js to view the code I wrote prior to his example.
+
 var correctGuess = false;
 var randomNumber = Math.floor(Math.random() * 6) +1;
-console.log(randomNumber); /*To be able to test the program better, I get to check all the options via the console*/
+console.log(randomNumber); /*To be able to test the program better, I get to check all the options knowing what the randomNumber is via the console*/
 var guess = prompt("I'm thinking of a number between 1 and 6. What is it?");
 
 if ( parseInt(guess) === randomNumber ){
